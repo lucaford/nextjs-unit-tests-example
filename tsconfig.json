@@ -18,7 +18,7 @@
     "types": ["@testing-library/jest-dom"],
     "paths": {
       "@/components/*": ["components/*"],
-      "@/pages/*": ["pages/*"],
+      "@/pages/*": ["app/*"],
       "@/styles/*": ["styles/*"]
     },
     "plugins": [
@@ -32,7 +32,8 @@
     "**/*.ts",
     "**/*.tsx",
     "types.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "app/login/page.tsx"
   ],
   "exclude": ["node_modules"]
 }
