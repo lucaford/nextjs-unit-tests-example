@@ -1,35 +1,37 @@
-# Next.js + Jest
+# Next.js Unit Tests Example
+Este proyecto proporciona ejemplos de cómo implementar pruebas unitarias en una aplicación Next.js utilizando Jest y React Testing Library.
 
-This example shows how to configure Jest to work with Next.js.
+## Descripción
+Este repositorio contiene varios ejemplos de pruebas unitarias para componentes y funciones de una aplicación Next.js. El objetivo es demostrar buenas prácticas en la escritura de pruebas y facilitar la adopción de estas técnicas en proyectos de Next.js. A través de estos ejemplos, se pretende ayudar a los desarrolladores a escribir pruebas efectivas y a mantener la calidad del código.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
-
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
-
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
+## Uso
 ```bash
-npx create-next-app --example with-jest with-jest-app
+git clone git@github.com:lucaford/nextjs-unit-tests-example.git
+cd nextjs-unit-tests-example
+npm install
+npm run dev
 ```
+Abre http://localhost:3000 para ver la aplicación en tu navegador.
 
+
+## Haz un fork del repositorio.
+Crea una nueva rama
 ```bash
-yarn create next-app --example with-jest with-jest-app
+git checkout -b feature/nueva-funcionalidad
 ```
+Realiza tus cambios y haz un commit
 
 ```bash
-pnpm create next-app --example with-jest with-jest-app
+git commit -m 'Añadir nueva funcionalidad'
 ```
+Envía tus cambios a tu fork 
+```bash
+git push origin feature/nueva-funcionalidad
+```
+Crea un pull request.
 
-## Running Tests
+## Pruebas
 
 ```bash
-npm test
+npm run test
 ```
